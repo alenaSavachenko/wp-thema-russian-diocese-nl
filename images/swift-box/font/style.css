@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'swiftbox';
+  src:
+    url('http://russian-diocese.nl/images/swift-box/font/fonts/swiftbox.ttf') format('truetype'),
+    url('http://russian-diocese.nl/images/swift-box/font/fonts/swiftbox.woff') format('woff'),
+    url('https://russian-diocese.nl/images/swift-box/font/fonts/swiftbox.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'swiftbox' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pinterest:before {
+  content: "\f0d2";
+}
+.icon-clock-o:before {
+  content: "\f017";
+}
+.icon-play:before {
+  content: "\f04b";
+}
+.icon-chevron-left:before {
+  content: "\f053";
+}
+.icon-chevron-right:before {
+  content: "\f054";
+}
+.icon-chevron-up:before {
+  content: "\f077";
+}
+.icon-chevron-down:before {
+  content: "\f078";
+}
+.icon-external-link:before {
+  content: "\f08e";
+}
+.icon-twitter:before {
+  content: "\f099";
+}
+.icon-facebook:before {
+  content: "\f09a";
+}
+.icon-facebook-f:before {
+  content: "\f09a";
+}
+.icon-google-plus:before {
+  content: "\f0d5";
+}
+.icon-close:before {
+  content: "\e900";
+}
+.icon-lightbox-link:before {
+  content: "\e901";
+}
+.icon-lightbox-link2:before {
+  content: "\e902";
+}
+.icon-lightbox-more:before {
+  content: "\e904";
+}
+.icon-lightbox-photo:before {
+  content: "\e906";
+}
+.icon-lightbox-video:before {
+  content: "\e907";
+}
+.icon-link:before {
+  content: "\e908";
+}
+.icon-more:before {
+  content: "\e90a";
+}
+.icon-share:before {
+  content: "\e909";
+}
